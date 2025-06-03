@@ -8,8 +8,8 @@ public class Funcarr {
         return arr;
 
     }
-    public static void pArray(int[] n,int x){
-        for(int i=0;i<x;i++){
+    public static void pArray(int[] n){
+        for(int i=0;i<n.length;i++){
             System.out.print(n[i]+" ");
         }
     }
@@ -17,7 +17,7 @@ public class Funcarr {
         Scanner sc = new Scanner(System.in);
        int x = sc.nextInt();
         int[] n= cArray(sc,x);
-        pArray(n,x);
+        pArray(n);
     }
 
 }

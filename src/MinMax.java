@@ -16,7 +16,7 @@ public class MinMax {
         int n = sc.nextInt();
         //int[] x = {15,22,26,17,9,18};
         //minMax(x);
-        int[] p = carray(sc,n);
+        int[] p = cArray(sc,n);
         int sum = arraySum(p);
         System.out.println(sum);
 
@@ -28,7 +28,7 @@ public class MinMax {
         }
         return sum;
     }
-    public static int[] carray(Scanner s,int n) {
+    public static int[] cArray(Scanner s,int n) {
         int [] arr = new int[n];
         for(int i=0;i<n;i++){
             arr[i]= s.nextInt();
